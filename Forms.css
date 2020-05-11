@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+	<style type="text/css">
+	
+		input {
+			color:blue;
+			background-color: #00eeff;
+			font-size: 20px;
+			font-family: serif;
+			border: 10px;
+			border-radius: 5px;
+
+		}
+		input:focus {
+			background-color: red;
+		}
+		.email {
+			background-image: url(email.jpg);
+			background-position: 2px,3px;
+			background-repeat: no-repeat;
+			background-size: 35px,20px;
+			}
+		#name {
+			background-image: url(username.png);
+			background-repeat: no-repeat;
+			background-position: 2px,4px;
+			background-size: 35px,20px;
+		}
+		#submit
+		{
+			background-color:yellow;
+			text-shadow: 1px 1px 0px;
+			border-bottom: 2px dotted red;
+			border-right: 3px solid pink;
+			cursor: pointer;
+
+		}
+		.fieldset {
+			border-radius: 30px;
+			width:300px;
+			padding: 30px;
+		}
+		.legend {
+			background-color: yellow;
+			border-radius: 30px;
+			border:20px dashed red;
+			text-transform: uppercase;
+		}
+		#submit:hover {
+			background-color: rgb(225,100,200);
+		}
+
+		
+	</style>
+	</head>
+	<body>
+		<h3>Registration form</h3>
+		<form action="https://www.aporganisation.com" method="get">
+			<fieldset class="fieldset">
+				<legend class="legend">personal info</legend>
+			NAME:
+			<input id="name" type="text" name="firstname" size="15" required="required"><br><br>
+			DOB:
+			<input type="date" name="dob"><br>
+			<br>
+			Email:
+			<input class="email" type="email" name="email"><br>
+			<br>
+			GENDER:
+			<input type="radio" name="GENDER" value="male" >male
+			<input type="radio" name="GENDER" value="female">female
+			<br><br>
+		    </fieldset>
+		    <fieldset>
+		      <legend>education details</legend>  
+			    COLLEGE NAME:
+			    <input type="text" name="collegename"><br>
+			    <br>
+			    BRANCH:
+			    <select name=branch size="2">
+				  <option value="cse">cse</option>
+				  <option value="ece">ece</option>
+				  <option value="mech">mech</option>
+				  <option value="eee">eee</option>
+			    </select><br>
+			      <br>ADDRESS:
+			      <textarea name="address" rows="5" cols="10">enter your address...</textarea>
+			      <br>
+			      PHONE:
+			      <input type="number" name="phone number"><br>
+			      upload your file:
+			      <input type="file" name="file">
+                  <br>
+            </fieldset>
+            
+            <br><input type="checkbox" name="details">The above details are filled by me
+            <br>
+            SUBMIT
+            <input  id="submit"type="submit" name="submit" value="submit">
+
+			
+		</form>
+	</body>
+</html>
