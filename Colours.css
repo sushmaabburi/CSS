@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>color in css</title>
+<style type=text/css>
+    h1{
+        background-color:rgb(80,90,50);
+        padding:50px
+        font-family:arial;
+       }
+   p{
+     background-color:hsla(0,100%,50%,0.5)
+     }
+  ul{
+      background-color:#548712;
+   }
+</style>
+</head>
+<body>
+<h1>color topic in css</h1>
+<p>we can speicfy color in css in three ways many  and also there are other ways to:
+<ul>
+  <li>RGB values(0-255)</li>
+  <li>HEX CODES(it is a six digit code)</li>
+  <li>COLOR NAMES(there are 147 pre-defined colors)</li>
+  <li>RGBA same as RGB but takes one extra value that is opacity</li>
+  <li>HSL takes values (HUA(0-360),staturation(0-100%),lightness(0-100%)
+</ul>
+</p>
+</html>
