@@ -1,0 +1,33 @@
+ (31 sloc)  625 Bytes
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<title> text</title>
+<style type="text/css">
+h1{
+       font-weight:normal;
+       color:#0088dd;
+       margin:0px;
+       text-transform:uppercase;
+      text-shadow:2px 2px 3px #546576;
+    }
+.intro
+{
+       font-family:sans-serif;
+       font-size:70%
+}
+.describe
+{
+       font-style:italic;
+       text-align:right;
+}
+</style>
+</head>
+<body>
+<h1>lion</h1>
+<p class="intro">lion ,the animal known for its ferocity and majesty,sits literally like the  king of the jungle</p>
+<p>even it can kill a human to..</p>
+<p id="describe">black rampant,wise perceptive,eccentric</p>
+</body>
+</html>
