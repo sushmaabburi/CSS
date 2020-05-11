@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tables</title>
+<style type="text/css">
+	body {
+		color:#ee0011;
+		font-family: sans-serif;
+		background-image: url();
+		background-size: 900px ,900px;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+	h2{
+		font-family: algerian;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	table {
+		
+		width: 600px;
+		border-bottom: 2px solid black;
+		border-top: 3px solid red;
+		border-left: 2px solid blue;
+		border-right: 2px solid darkcyan;
+	}
+	th ,td {
+		padding: 2px,0px,2px,0px;
+	}
+	th {
+		color:red;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 10px;
+		padding: 10px;
+		border-bottom: 2px solid black;
+		border-right: 2px dotted pink;
+		
+	}
+	tbody {
+		color:#002266;
+	}
+	td {
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		border-right: 2px solid black;
+		border-right: 2px dashed pink;
+		border-bottom: 2px solid red;
+
+		}
+		tfoot {
+			color:#000000;
+		}
+
+	
+</style>
+	
+	</head>
+<body>
+	<h2>Details</h2>
+	<table>
+		<thead>
+		<tr>
+		  <th>F.Name</th>
+		  <th>L.Name</th>
+		  <th>Age</th>
+		  <th>maths marks</th>
+		</tr>
+	</thead>
+		<tbody>
+		<tr>
+			<td>sushma</td>
+			<td>ch</td>
+			<td>20</td>
+			<td>87</td>
+		</tr>
+		<tr>
+			<td>divya</td>
+			<td>l</td>
+			<td>19</td>
+			<td>98</td>
+		</tr>
+	    </tbody>
+	   	</table>
+	</body>
+</html>
