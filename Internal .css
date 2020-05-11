@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BASIC internal CSS PROGRAM</title>
+<style type="text/css">
+    h1,h2{
+          color:blue}
+   p{
+         font-family:arial;
+         color:pink
+      }
+</style>
+</head>
+<body>
+<h1>meaning of FEATURES</h1>
+<p>  a distinctive attribute or aspect of something  </p>
+<h2>meaning of weird</h2>
+<p>very strange and unusual</p>
+</body>
+</html>
