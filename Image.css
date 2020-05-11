@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>images</title>
+<style type="text/css">
+img.align-left{
+  float:left;
+  margin-right:10px;
+}
+p{
+  background-image:url("images/pattern.gif");
+}
+</style>
+</head>
+<body>
+<p><img src="tiger.jpg" class="align-left medium" alt="tiger"/>
+the tiger is the large extant cat species and a member of the genus panthera ,it is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. </p>
+</body>
+</html>
